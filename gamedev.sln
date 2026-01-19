@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "water", "water", "{658AA0CB-D9E7-C29C-94EF-839374C6704F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "water\Assembly-CSharp-Editor.csproj", "{E9B21FF9-F454-5EAF-286D-59D07B186DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "water\Assembly-CSharp.csproj", "{892A9F32-15B7-83C9-10F3-82EE16CE7428}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9B21FF9-F454-5EAF-286D-59D07B186DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B21FF9-F454-5EAF-286D-59D07B186DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B21FF9-F454-5EAF-286D-59D07B186DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B21FF9-F454-5EAF-286D-59D07B186DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{892A9F32-15B7-83C9-10F3-82EE16CE7428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892A9F32-15B7-83C9-10F3-82EE16CE7428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892A9F32-15B7-83C9-10F3-82EE16CE7428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892A9F32-15B7-83C9-10F3-82EE16CE7428}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9B21FF9-F454-5EAF-286D-59D07B186DEF} = {658AA0CB-D9E7-C29C-94EF-839374C6704F}
+		{892A9F32-15B7-83C9-10F3-82EE16CE7428} = {658AA0CB-D9E7-C29C-94EF-839374C6704F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {098E2913-87CB-4F9F-934D-63DA53484DD2}
+	EndGlobalSection
+EndGlobal
