@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 382a5d8b1147b4e78a31353c022b8e15, type: 3}
+  m_Name: Lakes_Spectrum_River
+  m_EditorClassIdentifier: 
+  _Version: 0
+  _WaveDirectionVariance: 90
+  _GravityScale: 1
+  _Multiplier: 1
+  _PowerLogarithmicScales:
+  - -7.10794
+  - -6.4279404
+  - -5.93794
+  - -5.348895
+  - -4.4245486
+  - -3.8330135
+  - -3.17794
+  - -2.6079402
+  - -1.9379401
+  - -1.1179401
+  - -0.85794
+  - -0.36794007
+  - 0.042060018
+  - -9.39794
+  _PowerDisabled: 0000000000000101010101010101
+  _ChopScales:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  _GravityScales:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  _Chop: 1.151
+  _ShowAdvancedControls: 0
+  _Model: 0

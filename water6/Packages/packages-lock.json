@@ -193,6 +193,23 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.waveharmonic.crest": {
+      "version": "file:com.waveharmonic.crest",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "14.0.12",
+        "com.unity.shadergraph": "14.0.12"
+      }
+    },
+    "com.waveharmonic.crest.splines": {
+      "version": "file:com.waveharmonic.crest.splines",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.waveharmonic.crest": "5.6.0"
+      }
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,

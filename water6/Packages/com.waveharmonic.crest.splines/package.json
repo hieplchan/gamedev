@@ -1,0 +1,25 @@
+{
+  "name": "com.waveharmonic.crest.splines",
+  "version": "1.4.2",
+  "displayName": "Crest - Splines",
+  "description": "Splines for Crest Water.",
+  "unity": "2022.3",
+  "hideInEditor": false,
+  "documentationUrl": "https://docs.crest.waveharmonic.com/Packages/Splines/Introduction.html",
+  "changelogUrl": "https://docs.crest.waveharmonic.com/Packages/Splines/History.html",
+  "author": {
+    "name": "Wave Harmonic",
+    "email": "support@waveharmonic.com",
+    "url": "https://waveharmonic.com/"
+  },
+  "dependencies": {
+    "com.waveharmonic.crest": "5.6.0"
+  },
+  "samples": [
+    {
+      "displayName": "Lakes",
+      "description": "Two lakes connected by a river.",
+      "path": "Samples~/Lakes"
+    }
+  ]
+}
