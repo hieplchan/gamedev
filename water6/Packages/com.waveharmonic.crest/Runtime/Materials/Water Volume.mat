@@ -49,7 +49,7 @@ Material:
     m_Floats:
     - CREST_FLOW: 0
     - _Crest_AmbientTerm: 1
-    - _Crest_Anisotropy: 0.5
+    - _Crest_Anisotropy: 0.376
     - _Crest_CausticsDepthOfField: 6
     - _Crest_CausticsDistortionScale: 250
     - _Crest_CausticsDistortionStrength: 0.16
@@ -65,10 +65,10 @@ Material:
     - _Crest_ExtinctionMultiplier: 1
     - _Crest_OutScatteringExtinctionFactor: 0.2
     - _Crest_OutScatteringFactor: 0.2
-    - _Crest_ShadowsAffectsAmbientFactor: 0.5
+    - _Crest_ShadowsAffectsAmbientFactor: 0.554
     - _Crest_SunBoost: 2
     m_Colors:
-    - _Crest_AbsorptionColor: {r: 0.34162676, g: 0.6954546, b: 0.85, a: 0.1019608}
-    - _Crest_Scattering: {r: 0, g: 0.09803919, b: 0.19999996, a: 1}
+    - _Crest_AbsorptionColor: {r: 0.28248486, g: 0.68778926, b: 0.8679245, a: 0.039215688}
+    - _Crest_Scattering: {r: 0.004405484, g: 0.04775174, b: 0.08490568, a: 0.3254902}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
