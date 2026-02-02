@@ -356,7 +356,7 @@ MonoBehaviour:
         _Version: 0
         _Enabled: 1
         _Layer: 4
-        _Material: {fileID: 2100000, guid: d340825b528984c3ea62563460223aa4, type: 2}
+        _Material: {fileID: 2100000, guid: 5ac983caaf29d4b9186ea83ae6e160bb, type: 2}
         _VolumeMaterial: {fileID: 0}
         _ChunkTemplate: {fileID: 0}
         _CastShadows: 0
