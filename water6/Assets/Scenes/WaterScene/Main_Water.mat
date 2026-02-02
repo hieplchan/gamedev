@@ -58,12 +58,17 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_SrcBlend: 5
     - _BUILTIN_ZWrite: 1
+    - _Crest_AmbientTerm: 1
+    - _Crest_Anisotropy: 0.376
+    - _Crest_DirectTerm: 1
+    - _Crest_NormalsStrengthOverall: 1
     - _Crest_SSSDirectionalFalloff: 2
-    - _Crest_SSSEnabled: 1
+    - _Crest_SSSEnabled: 0
     - _Crest_SSSIntensity: 10
     - _Crest_SSSPinchFalloff: 2
     - _Crest_SSSPinchMaximum: 1.45
     - _Crest_SSSPinchMinimum: 0.45
+    - _Crest_ShadowsAffectsAmbientFactor: 0.554
     - _CullMode: 0
     - _CullModeForward: 0
     - _DstBlend: 10
@@ -73,6 +78,9 @@ Material:
     - _ZTestGBuffer: 3
     - _ZWrite: 1
     m_Colors:
+    - _Crest_Absorption: {r: 0.31727198, g: 0.09393514, b: 0.03555151, a: 1}
+    - _Crest_AbsorptionColor: {r: 0.28248486, g: 0.68778926, b: 0.8679245, a: 0.039215688}
+    - _Crest_Scattering: {r: 0.004405484, g: 0.04775174, b: 0.08490568, a: 0.3254902}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
