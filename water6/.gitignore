@@ -110,3 +110,6 @@ InitTestScene*.unity*
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# my additions
+.DS_Store
