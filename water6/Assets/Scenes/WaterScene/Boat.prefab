@@ -145,8 +145,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.2250462, y: 2, z: 0.7700553}
-  m_Center: {x: 0.0039714873, y: 5.909352e-17, z: 0.13502768}
+  m_Size: {x: 1.2250462, y: 2, z: 0.7584438}
+  m_Center: {x: 0.0000000028740845, y: 0.000000009869144, z: 0.12922192}
 --- !u!1 &2395604044666270781
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,7 +595,6 @@ GameObject:
   - component: {fileID: 6179093217864273969}
   - component: {fileID: 7415764994069487260}
   - component: {fileID: 1206039916742979092}
-  - component: {fileID: 2306872116381818965}
   m_Layer: 0
   m_Name: Boat
   m_TagString: Untagged
@@ -678,58 +677,6 @@ MonoBehaviour:
   _ObjectLength: 11
   _Debug:
     _DrawQueries: 0
---- !u!114 &2306872116381818965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8588837647139932281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9310a3e8fdd024e06bb9d6970db822d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Version: 0
-  _FloatingObject: {fileID: 0}
-  _Control: {fileID: 0}
-  _ForceHeightOffset: -0.3
-  _ThrustPower: 11
-  _SteerPower: 1.3
-  _TurningHeel: 0.35
-  _BuoyancyCurveFactor:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0.01267637
-      outSlope: 0.01267637
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.6626424
-      value: 0.1791001
-      inSlope: 0.8680198
-      outSlope: 0.8680198
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 3.38758
-      outSlope: 3.38758
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &8630476408439780712
 GameObject:
   m_ObjectHideFlags: 0
