@@ -3,6 +3,7 @@
 
 | Version                                                                | .......Times........             | Recap                                                   | Screenshot                                           |
 | ---------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------- | ---------------------------------------------------- |
+| [v0.0.21-feb261](https://github.com/hieplchan/gamedev/releases/tag/v0.0.21-feb261)   | 📅📅<br>2.2–15.2<br>26          | Happy lunar new year 2026                               | ![v0.0.21](Screenshots/v0.0.21_0202_1502_2026.png)  |
 | [v0.0.20](https://github.com/hieplchan/gamedev/releases/tag/v0.0.20)   | 📅📅<br>19.1–1.2<br>26          | Init water scene                                        | ![v0.0.20](Screenshots/v0.0.20_1901_0102_2026.png)  |
 | [v0.0.19](https://github.com/hieplchan/project_icarus/releases/tag/v0.0.19)  | 📅📅<br>5.1–18.1<br>26    | Godot first try                                         | ![v0.0.19](Screenshots/v0.0.19_0501_1801_2026.png)  |
 | [v0.0.18](https://github.com/hieplchan/projectX/releases/tag/v0.0.18)  | 📅📅😡<br>15.12–4.1<br>25       | Happy new year, engine end of life                     | ![v0.0.18](Screenshots/v0.0.18_1512_0401_2025.png)  |
@@ -14,15 +15,15 @@
 | [v0.0.12](https://github.com/hieplchan/projectX/releases/tag/v0.0.12)  | 📅📅<br>25.8–7.9<br>25          | Srr, busy playing Silksong rn                           | ![v0.0.12](Screenshots/v0.0.12_2508_0709_2025.png)   |
 | [v0.0.11](https://github.com/hieplchan/projectX/releases/tag/v0.0.11)  | 📅📅<br>11.8–24.8<br>25         | Nothing visible to show yet, but stay tuned.            | ![v0.0.11](Screenshots/v0.0.11_1108_2408_2025.png)   |
 | [v0.0.10](https://github.com/hieplchan/projectX/releases/tag/v0.0.10)  | 📅📅<br>28.7–10.8<br>25         | Just a quad with custom vertex/fragment                 | ![v0.0.10](Screenshots/v0.0.10_2807_1008_2025.png)   |
-| [v0.0.9](https://github.com/hieplchan/projectX/releases/tag/v0.0.9)    | 📅📅<br>14.7–27.7<br>25         | 𝐌𝐲 𝐞𝐧𝐠𝐢𝐧𝐞 𝐜𝐚𝐧 𝐬𝐡𝐨𝐰 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠                         | ![v0.0.9](Screenshots/v0.0.9_1407_2707_2025.png)     |
+| [v0.0.9](https://github.com/hieplchan/projectX/releases/tag/v0.0.9)    | 📅📅<br>14.7–27.7<br>25         | 𝐌𝐲 𝐞𝐧𝐠𝐢𝐧𝐞 𝐜𝐚𝐧 𝐬𝐡𝐨𝐰 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠                           | ![v0.0.9](Screenshots/v0.0.9_1407_2707_2025.png)     |
 | [v0.0.8](https://github.com/hieplchan/projectX/releases/tag/v0.0.8)    | 📅📅<br>29.6–13.7<br>25         | Project setup and build: SDL2 & bgfx                    | ![v0.0.8](Screenshots/v0.0.8_3006_1307_2025.png)     |
 | [v0.0.7](https://github.com/hieplchan/pokothegame/releases/tag/v0.0.7) | 📅📅<br>15.6–28.6<br>25         | A year since that one post showed me what people liked  | ![v0.0.7](Screenshots/v0.0.7_1506_2806_2025.png)     |
 | [v0.0.6](https://github.com/hieplchan/pokothegame/releases/tag/v0.0.6) | 📅📅<br>1.6–14.6<br>25          | Topology’s still ugly — sorry for your eyes!            | ![v0.0.6](Screenshots/v0.0.6_0106_1406_2025.png)     |
 | [v0.0.5](https://github.com/hieplchan/pokothegame/releases/tag/v0.0.5) | 📅📅<br>18.5–31.5<br>25         | But still tried adding some slimes, little plants, and ground to my tiny game | ![v0.0.5](Screenshots/v0.0.5_1805_3105_2025.jpg)     |
 | [v0.0.4](https://github.com/hieplchan/pokothegame/releases/tag/v0.0.4) | 📅📅<br>4.5–17.5<br>25          | Me ⚔️ Big Dummies.                                     | ![v0.0.4](Screenshots/v0.0.4_0405_1705_2025.png)     |
 | [v0.0.3](https://github.com/hieplchan/pokothegame/releases/tag/v0.0.3) | 📅📅<br>20.4–3.5<br>25          | Just looting some hero stuff from my dear friend, Link | ![v0.0.3](Screenshots/v0.0.3_2004_0305_2025.png)     |
-| [v0.0.2](https://github.com/hieplchan/pokothegame/releases/tag/v0.0.2) | 📅📅<br>6.4–19.4<br>25          | 𝑷𝒐𝒌𝒐 𝒄𝒂𝒏 𝒏𝒐𝒘 𝑴𝑶𝑽𝑬!                                  | ![v0.0.2](Screenshots/v0.0.2_0604_1904_2025.jpg)     |
-| [v0.0.1](https://github.com/hieplchan/pokothegame/releases/tag/v0.0.1) | 📅📅<br>23.3–5.4<br>25          | Back to GameDev                                        | ![v0.0.1](Screenshots/v0.0.1_2303_0504_2025.jpg)     |
-| [v0.0.0.2](https://github.com/hieplchan/graveyard_2up_unity_project_lyoko) | <br>22.10.23<br>9.9.24      | Project Lyoko (2UP)                                    |      |
-| [v0.0.0.1](https://github.com/hieplchan/graveyard_1up_unity_simple_farm) | <br>30.4-2.6<br>23             | Unity simple farm (1UP)                                |      |
-| [v0.0.0.0](https://play.unity.com/en/user/f6452240-c7ea-44f9-ad8d-8448ed0d0c58) | <br>26.11<br>22         | Unity play (0UP)                                       |
+| [v0.0.2](https://github.com/hieplchan/pokothegame/releases/tag/v0.0.2) | 📅📅<br>6.4–19.4<br>25          | 𝑷𝒐𝒌𝒐 𝒄𝒂𝒏 𝒏𝒐𝒘 𝑴𝑶𝑽𝑬!                                   | ![v0.0.2](Screenshots/v0.0.2_0604_1904_2025.jpg)     |
+| [v0.0.1](https://github.com/hieplchan/pokothegame/releases/tag/v0.0.1) | 📅📅<br>23.3–5.4<br>25          | Back to GameDev                                         | ![v0.0.1](Screenshots/v0.0.1_2303_0504_2025.jpg)     |
+| [v0.0.0.2](https://github.com/hieplchan/graveyard_2up_unity_project_lyoko) | <br>22.10.23<br>9.9.24      | Project Lyoko (2UP)                                      |      |
+| [v0.0.0.1](https://github.com/hieplchan/graveyard_1up_unity_simple_farm) | <br>30.4-2.6<br>23             | Unity simple farm (1UP)                                 |      |
+| [v0.0.0.0](https://play.unity.com/en/user/f6452240-c7ea-44f9-ad8d-8448ed0d0c58) | <br>26.11<br>22         | Unity play (0UP)                                        |

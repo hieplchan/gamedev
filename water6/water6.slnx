@@ -12,5 +12,7 @@
   <Project Path="WaveHarmonic.Crest.Editor.csproj" />
   <Project Path="WaveHarmonic.Crest.Scripting.csproj" />
   <Project Path="WaveHarmonic.Crest.Splines.csproj" />
+  <Project Path="WaveHarmonic.Crest.Samples.Boats.csproj" />
   <Project Path="WaveHarmonic.Crest.Editor.Dependents.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
 </Solution>
