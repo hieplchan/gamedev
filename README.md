@@ -3,7 +3,8 @@
 
 | Version                                                                | .......Times........             | Recap                                                   | Screenshot                                           |
 | ---------------------------------------------------------------------- | -------------------------------- | ------------------------------------------------------- | ---------------------------------------------------- |
-| [v0.0.21-feb261](https://github.com/hieplchan/gamedev/releases/tag/v0.0.21-feb261)   | 📅📅<br>2.2–15.2<br>26          | Happy lunar new year 2026                               | ![v0.0.21](Screenshots/v0.0.21_0202_1502_2026.png)  |
+| [v0.0.22-feb262](https://github.com/hieplchan/gamedev/releases/tag/v0.0.22-feb262)   | 📅📅<br>16.2–1.3<br>26          | Lost a sea                                | ![v0.0.22](Screenshots/v0.0.22_1602_0103_2026.png)  |
+| [v0.0.21-feb261](https://github.com/hieplchan/gamedev/releases/tag/v0.0.21-feb261)   | 📅📅<br>2.2–15.2<br>26          | Happy lunar new year 2026                 | ![v0.0.21](Screenshots/v0.0.21_0202_1502_2026.png)  |
 | [v0.0.20](https://github.com/hieplchan/gamedev/releases/tag/v0.0.20)   | 📅📅<br>19.1–1.2<br>26          | Init water scene                                        | ![v0.0.20](Screenshots/v0.0.20_1901_0102_2026.png)  |
 | [v0.0.19](https://github.com/hieplchan/project_icarus/releases/tag/v0.0.19)  | 📅📅<br>5.1–18.1<br>26    | Godot first try                                         | ![v0.0.19](Screenshots/v0.0.19_0501_1801_2026.png)  |
 | [v0.0.18](https://github.com/hieplchan/projectX/releases/tag/v0.0.18)  | 📅📅😡<br>15.12–4.1<br>25       | Happy new year, engine end of life                     | ![v0.0.18](Screenshots/v0.0.18_1512_0401_2025.png)  |
