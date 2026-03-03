@@ -5,6 +5,7 @@
   <Project Path="WaveHarmonic.Crest.csproj" />
   <Project Path="Unity.RenderPipelines.Universal.Editor.csproj" />
   <Project Path="Unity.RenderPipelines.Universal.Runtime.csproj" />
+  <Project Path="DOTween.Modules.csproj" />
   <Project Path="WaveHarmonic.Crest.Samples.csproj" />
   <Project Path="WaveHarmonic.Crest.Shared.Editor.csproj" />
   <Project Path="Assembly-CSharp.csproj" />

@@ -756,6 +756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 610397443}
   - component: {fileID: 610397442}
+  - component: {fileID: 610397444}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -776,8 +777,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   player: {fileID: 1485021023517473935}
-  topCam: {fileID: 1399398883}
-  underWaterCam: {fileID: 1717002580}
+  topCam: {fileID: 185887600}
+  underWaterCam: {fileID: 690965578}
   objUI: {fileID: 707946682}
   objUIText: {fileID: 1145056613}
 --- !u!4 &610397443
@@ -795,6 +796,69 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &610397444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610397441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10d422b52559da41aa9676770a8fc65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BrunoMikoski.AnimationSequencer::BrunoMikoski.AnimationSequencer.AnimationSequencerController
+  animationSteps:
+  - rid: 8470342994406408397
+  updateType: 0
+  timeScaleIndependent: 0
+  autoplayMode: 0
+  startPaused: 0
+  playbackSpeed: 1
+  playType: 0
+  loops: 0
+  loopType: 0
+  autoKill: 1
+  onStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onFinishedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  onProgressEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  progress: -1
+  references:
+    version: 2
+    RefIds:
+    - rid: 8470342994406408397
+      type: {class: DOTweenAnimationStep, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
+      data:
+        delay: 0
+        flowType: 0
+        target: {fileID: 1485021023517473935}
+        duration: 1
+        loopCount: 0
+        loopType: 0
+        actions:
+        - rid: 8470342994406408398
+    - rid: 8470342994406408398
+      type: {class: PunchScaleDOTweenAction, ns: BrunoMikoski.AnimationSequencer, asm: BrunoMikoski.AnimationSequencer}
+      data:
+        direction: 0
+        ease:
+          ease: 7
+          curve:
+            serializedVersion: 2
+            m_Curve: []
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        isRelative: 0
+        punch: {x: 1, y: 1, z: 1}
+        vibrato: 10
+        elasticity: 1
 --- !u!1001 &690965577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2193,11 +2257,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!20 &1399398883 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 6389200137749898762, guid: c26fe2b4fef6c484089497b549dd6b04, type: 3}
-  m_PrefabInstance: {fileID: 185887599}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1557044175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2393,11 +2452,6 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   sharedProfile: {fileID: 11400000, guid: ec2b869d521934af4a38390f24190cbc, type: 2}
---- !u!20 &1717002580 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 6389200137749898762, guid: c26fe2b4fef6c484089497b549dd6b04, type: 3}
-  m_PrefabInstance: {fileID: 690965577}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1738266974
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,6 +2779,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1101349585967458379, guid: d1432933e12944455a2fce01becda687, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101349585967458379, guid: d1432933e12944455a2fce01becda687, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.49999988
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101349585967458379, guid: d1432933e12944455a2fce01becda687, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.16616812
+      objectReference: {fileID: 0}
     - target: {fileID: 1206039916742979092, guid: d1432933e12944455a2fce01becda687, type: 3}
       propertyPath: _AccelerateDownhill
       value: 0.16558442
