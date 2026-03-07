@@ -780,6 +780,7 @@ MonoBehaviour:
   underWaterCam: {fileID: 690965578}
   objUI: {fileID: 707946682}
   objUIText: {fileID: 1145056613}
+  _jumpToSwimAnimSequencerController: {fileID: 781462200}
 --- !u!4 &610397443
 Transform:
   m_ObjectHideFlags: 0
@@ -1328,7 +1329,7 @@ GameObject:
   - component: {fileID: 781462199}
   - component: {fileID: 781462200}
   m_Layer: 0
-  m_Name: PlayerJumpToSwimAnimSequence
+  m_Name: AnimJumpToSwim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1342,7 +1343,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781462198}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3335,6 +3336,22 @@ PrefabInstance:
     - target: {fileID: 6179093217864273969, guid: d1432933e12944455a2fce01becda687, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184954495539444513, guid: d1432933e12944455a2fce01becda687, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.659196
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184954495539444513, guid: d1432933e12944455a2fce01becda687, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.754244
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184954495539444513, guid: d1432933e12944455a2fce01becda687, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184954495539444513, guid: d1432933e12944455a2fce01becda687, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.14
       objectReference: {fileID: 0}
     - target: {fileID: 8588837647139932281, guid: d1432933e12944455a2fce01becda687, type: 3}
       propertyPath: m_Name

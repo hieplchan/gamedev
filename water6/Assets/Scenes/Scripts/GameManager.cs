@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using BrunoMikoski.AnimationSequencer;
 
 public class GameManager : MonoBehaviour {
     [SerializeField] private GameObject player;
@@ -11,6 +12,9 @@ public class GameManager : MonoBehaviour {
     [Header("UI")]
     [SerializeField] private GameObject objUI;
     [SerializeField] private TMP_Text objUIText;
+
+    [Header("Animation Sequencer Controller")]
+    [SerializeField] private AnimationSequencerController _jumpToSwimAnimSequencerController;
 
     private bool _isPlayerInSwimTriggerZone = false;
 
