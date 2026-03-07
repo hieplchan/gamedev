@@ -3,6 +3,9 @@
 This file defines persistent guidance for agents working in this repository.
 Scope: entire repo rooted at `/workspace/gamedev`.
 
+# Working branch
+- sp23_mar261
+
 ## Project Context
 - Unity project path: `water6/`
 - Primary scene scripting area: `water6/Assets/Scenes/WaterScene/`
