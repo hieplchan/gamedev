@@ -3,7 +3,7 @@ using TMPro;
 using BrunoMikoski.AnimationSequencer;
 
 public class GameManager : MonoBehaviour {
-    [SerializeField] private GameObject player;
+    [SerializeField] private PlayerController player;
 
     [Header("Camera")]
     [SerializeField] private Transform topCam;
@@ -14,18 +14,18 @@ public class GameManager : MonoBehaviour {
     [SerializeField] private TMP_Text objUIText;
 
     [Header("Animation Sequencer Controller")]
-    [SerializeField] private AnimationSequencerController _jumpToSwimAnimSequencerController;
+    [SerializeField] private AnimationSequencerController _jumpToSwimAnimSeq;
 
-    private bool _isPlayerInSwimTriggerZone = false;
+    private void OnEnable() =>
+        player.OnSwimInteractStateChanged += HandleSwimInteractStateChanged;
 
-    public void OnPlayerEnterSwimTriggerZone() {
-        _isPlayerInSwimTriggerZone = true;
-        objUI.SetActive(true);
-        objUIText.text = "X - Swim";
-    }
+    private void OnDisable() =>
+        player.OnSwimInteractStateChanged -= HandleSwimInteractStateChanged;
 
-    public void OnPlayerExitSwimTriggerZone() {
-        _isPlayerInSwimTriggerZone = false;
-        objUI.SetActive(false);
+    private void HandleSwimInteractStateChanged() {
+        objUI.SetActive(player.IsInSwimTriggerZone);
+        if (player.IsInSwimTriggerZone) {
+            objUIText.text = "X - Swim";
+        }
     }
 }

@@ -3,9 +3,6 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour {
-
-    [SerializeField] private GameManager gameManager;
-
     [SerializeField] private Rigidbody rb;
     [SerializeField] private GameObject leftArm;
     [SerializeField] private GameObject rightArm;
@@ -16,6 +13,14 @@ public class PlayerController : MonoBehaviour {
     [Header("Settings")]
     [SerializeField] private float speed = 5f;
     [SerializeField] private float extraJumpHeight = 2f;
+
+#region Public Fields
+    public event Action OnSwimInteractStateChanged;
+
+    public bool IsSwimming { get; private set; }
+    public bool IsInSwimTriggerZone { get; private set; }
+
+#endregion
 
     private Vector2 moveInput;
     private Vector3 initForward;
@@ -29,15 +34,17 @@ public class PlayerController : MonoBehaviour {
     }
 
     void OnTriggerEnter(Collider other) {
-        if (other == swimTriggerZone) {
-            gameManager.OnPlayerEnterSwimTriggerZone();
-        }
+        if (other != swimTriggerZone) return;
+        
+        IsInSwimTriggerZone = true;
+        OnSwimInteractStateChanged?.Invoke();
     }
 
     void OnTriggerExit(Collider other) {
-        if (other == swimTriggerZone) {
-            gameManager.OnPlayerExitSwimTriggerZone();
-        }
+        if (other != swimTriggerZone) return;
+        
+        IsInSwimTriggerZone = false;
+        OnSwimInteractStateChanged?.Invoke();
     }
 
     void FixedUpdate() {
@@ -51,7 +58,7 @@ public class PlayerController : MonoBehaviour {
         transform.rotation = Quaternion.LookRotation(targetForward, Vector3.up);
 
         Vector3 localMove = new Vector3(0f, 0f, moveDirection * moveInput.x);
-        Vector3 worldMove = transform.TransformDirection(localMove);        
+        Vector3 worldMove = transform.TransformDirection(localMove);
         rb.MovePosition(rb.position + worldMove * speed * Time.fixedDeltaTime);
     }
 
